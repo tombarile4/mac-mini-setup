@@ -46,7 +46,16 @@
       "WebFetch(domain:claudefa.st)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit -m 'Initial commit: Mac Mini M4 personal dev environment setup *)"
+      "Bash(git commit -m 'Initial commit: Mac Mini M4 personal dev environment setup *)",
+      "WebFetch(domain:blakecrosley.com)",
+      "WebFetch(domain:www.aihero.dev)",
+      "Bash(chmod +x /Users/mothership/scripts/claude-session-end.sh /Users/mothership/scripts/claude-session-start.sh)",
+      "Bash(chmod +x /Users/mothership/scripts/claude-project-init.sh)",
+      "Bash(python3 -m json.tool /Users/mothership/.claude/settings.json)",
+      "Bash(chmod +x /Users/mothership/scripts/claude-session-end.sh)",
+      "Bash(chmod +x /Users/mothership/scripts/claude-session-start.sh)",
+      "Bash(zsh /Users/mothership/scripts/claude-session-end.sh)",
+      "Bash(echo \"Session-end exit: $?\")"
     ]
   }
 }
