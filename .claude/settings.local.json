@@ -76,7 +76,12 @@
       "Bash(open /Applications/Hammerspoon.app)",
       "Bash(python3 -c \"import sys,json; [print\\(json.dumps\\(json.loads\\(l\\), indent=2\\)[:500]\\) for l in sys.stdin]\")",
       "Bash(cat)",
-      "Bash(python3 /tmp/hale_memory_update.py)"
+      "Bash(python3 /tmp/hale_memory_update.py)",
+      "Bash(git -C ~/.openclaw/workspace status)",
+      "Bash(git -C ~/.openclaw/workspace log --oneline -5)",
+      "Bash(git -C ~/.openclaw/agents/katharine/workspace status)",
+      "Bash(git -C ~/.openclaw/agents/katharine/workspace log --oneline -5)",
+      "Bash(# Look for openclaw CLI or binary *)"
     ]
   }
 }
