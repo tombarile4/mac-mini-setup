@@ -73,7 +73,8 @@
       "WebFetch(domain:mcpmarket.com)",
       "WebFetch(domain:support.apple.com)",
       "WebFetch(domain:playbooks.com)",
-      "Bash(open /Applications/Hammerspoon.app)"
+      "Bash(open /Applications/Hammerspoon.app)",
+      "Bash(python3 -c \"import sys,json; [print\\(json.dumps\\(json.loads\\(l\\), indent=2\\)[:500]\\) for l in sys.stdin]\")"
     ]
   }
 }
