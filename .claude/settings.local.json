@@ -72,7 +72,8 @@
       "WebFetch(domain:dev.to)",
       "WebFetch(domain:mcpmarket.com)",
       "WebFetch(domain:support.apple.com)",
-      "WebFetch(domain:playbooks.com)"
+      "WebFetch(domain:playbooks.com)",
+      "Bash(open /Applications/Hammerspoon.app)"
     ]
   }
 }
