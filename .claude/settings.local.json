@@ -56,7 +56,9 @@
       "Bash(chmod +x /Users/mothership/scripts/claude-session-start.sh)",
       "Bash(zsh /Users/mothership/scripts/claude-session-end.sh)",
       "Bash(echo \"Session-end exit: $?\")",
-      "Bash(ssh-keygen -t ed25519 -C \"katharinemerola@gmail.com\" -f ~/.ssh/id_ed25519_katharine -N \"\")"
+      "Bash(ssh-keygen -t ed25519 -C \"katharinemerola@gmail.com\" -f ~/.ssh/id_ed25519_katharine -N \"\")",
+      "Bash(ssh-add ~/.ssh/id_ed25519_katharine)",
+      "Bash(ssh -T -i ~/.ssh/id_ed25519_katharine -o StrictHostKeyChecking=no git@github.com)"
     ]
   }
 }
