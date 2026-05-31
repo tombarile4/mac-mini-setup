@@ -69,7 +69,10 @@
       "Bash(sudo pmset -a tcpkeepalive 1)",
       "Bash(pmset -g)",
       "WebFetch(domain:www.hammerspoon.org)",
-      "WebFetch(domain:dev.to)"
+      "WebFetch(domain:dev.to)",
+      "WebFetch(domain:mcpmarket.com)",
+      "WebFetch(domain:support.apple.com)",
+      "WebFetch(domain:playbooks.com)"
     ]
   }
 }
