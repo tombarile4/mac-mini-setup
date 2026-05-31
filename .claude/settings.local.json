@@ -60,7 +60,9 @@
       "Bash(ssh-add ~/.ssh/id_ed25519_katharine)",
       "Bash(ssh -T -i ~/.ssh/id_ed25519_katharine -o StrictHostKeyChecking=no git@github.com)",
       "Bash(chmod +x /Users/mothership/scripts/claude-session-end.sh /Users/mothership/scripts/claude-project-init-katharine.sh)",
-      "Bash(chmod +x /Users/mothership/scripts/claude-project-init-katharine.sh)"
+      "Bash(chmod +x /Users/mothership/scripts/claude-project-init-katharine.sh)",
+      "Skill(schedule)",
+      "Skill(schedule:*)"
     ]
   }
 }
