@@ -81,7 +81,19 @@
       "Bash(git -C ~/.openclaw/workspace log --oneline -5)",
       "Bash(git -C ~/.openclaw/agents/katharine/workspace status)",
       "Bash(git -C ~/.openclaw/agents/katharine/workspace log --oneline -5)",
-      "Bash(# Look for openclaw CLI or binary *)"
+      "Bash(# Look for openclaw CLI or binary *)",
+      "Bash(npm list *)",
+      "Read(//usr/local/bin/**)",
+      "Bash(git -C /Users/mothership/.openclaw/agents/katharine/workspace log --oneline)",
+      "Bash(git -C /Users/mothership/.openclaw/agents/katharine/workspace config --get remote.origin.url)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d, indent=2\\)\\)\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('hooks',{}\\), indent=2\\)\\)\")",
+      "Bash(crontab -l)",
+      "Bash(chmod +x /Users/mothership/scripts/hale-sync.sh)",
+      "Bash(chmod +x /Users/mothership/.openclaw/agents/hale/self_check.py)",
+      "Bash(chmod +x /Users/mothership/.openclaw/hooks/weekly-drift.sh)",
+      "Bash(git -C /Users/mothership/.openclaw/workspace log --oneline)",
+      "Bash(zsh /Users/mothership/scripts/hale-sync.sh)"
     ]
   }
 }
