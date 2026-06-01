@@ -93,7 +93,9 @@
       "Bash(chmod +x /Users/mothership/.openclaw/agents/hale/self_check.py)",
       "Bash(chmod +x /Users/mothership/.openclaw/hooks/weekly-drift.sh)",
       "Bash(git -C /Users/mothership/.openclaw/workspace log --oneline)",
-      "Bash(zsh /Users/mothership/scripts/hale-sync.sh)"
+      "Bash(zsh /Users/mothership/scripts/hale-sync.sh)",
+      "WebFetch(domain:www.getopenclaw.ai)",
+      "WebFetch(domain:sfailabs.com)"
     ]
   }
 }
