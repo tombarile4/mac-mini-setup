@@ -97,7 +97,8 @@
       "WebFetch(domain:www.getopenclaw.ai)",
       "WebFetch(domain:sfailabs.com)",
       "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/mothership/.openclaw/openclaw.json'\\)\\); print\\(json.dumps\\(d.get\\('channels',{}\\).get\\('discord',{}\\), indent=2\\)\\)\")",
-      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/mothership/.openclaw/openclaw.json'\\)\\); print\\(json.dumps\\({k:v for k,v in d.items\\(\\) if k not in ['channels']}, indent=2\\)\\)\")"
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/mothership/.openclaw/openclaw.json'\\)\\); print\\(json.dumps\\({k:v for k,v in d.items\\(\\) if k not in ['channels']}, indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k:v for k,v in d.items\\(\\) if k not in ['token','secret','clientSecret']}, indent=2\\)\\)\")"
     ]
   }
 }
