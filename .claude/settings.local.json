@@ -95,7 +95,9 @@
       "Bash(git -C /Users/mothership/.openclaw/workspace log --oneline)",
       "Bash(zsh /Users/mothership/scripts/hale-sync.sh)",
       "WebFetch(domain:www.getopenclaw.ai)",
-      "WebFetch(domain:sfailabs.com)"
+      "WebFetch(domain:sfailabs.com)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/mothership/.openclaw/openclaw.json'\\)\\); print\\(json.dumps\\(d.get\\('channels',{}\\).get\\('discord',{}\\), indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/mothership/.openclaw/openclaw.json'\\)\\); print\\(json.dumps\\({k:v for k,v in d.items\\(\\) if k not in ['channels']}, indent=2\\)\\)\")"
     ]
   }
 }
